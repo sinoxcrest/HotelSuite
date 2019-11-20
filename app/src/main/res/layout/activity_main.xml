@@ -52,7 +52,8 @@
         android:layout_width="match_parent"
         android:id="@+id/checkin"
         android:hint="YYYY/MM/DD"
-        android:gravity="center"/>
+        android:gravity="center"
+        />
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -67,7 +68,8 @@
         android:layout_width="match_parent"
         android:id="@+id/checkout"
         android:hint="YYYY/MM/DD"
-        android:gravity="center"/>
+        android:gravity="center"
+        />
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -160,7 +162,7 @@ android:text="Adults"
         android:textSize="20dp"/>
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginVertical="30dp"
         android:layout_marginHorizontal="10dp"
         android:background="#f1f1f1">
