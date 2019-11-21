@@ -177,7 +177,7 @@ datePickerDialog.show();
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
 
-        String date=year+"/"+month+"/"+dayOfMonth ;
+        String date=year+"/"+(++month)+"/"+dayOfMonth ;
 if(a==true){
     checkin.setText(date);
     yearin=year;
